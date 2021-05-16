@@ -194,3 +194,15 @@ body{
     width: 20%;
     height: 20%;
 }
+
+/* CONTACT SECTION */
+
+#contact{
+    background-color: f4f5f9;
+}
+
+#contact .input-group-text{
+    width: 50px;
+    color: white;
+    background-color: #FC9601;
+}
