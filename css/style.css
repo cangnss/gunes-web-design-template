@@ -1,0 +1,123 @@
+/* GENERAL STYLING */
+h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+h2{
+    font-size: 32px;
+    color: #FC9601;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+p{
+    font-size: 14px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* HOME SECTION */
+.navbar{
+    border-bottom: #FC9601 1px solid;
+}
+.navbar .navbar-brand{
+    color: #FC9601;
+    font-size: 24px;
+}
+.bg-dark{
+    background-color: rgba(0,0,0,1) !important;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    text-transform: uppercase;
+    transition: color .5s ease;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #FC9601;
+}
+#headerSection{
+    background:url('../img/design.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+#headerSection .overlay{
+    background-color: rgba(0,0,0,.7);
+}
+#headerSection .row{
+    height: 100vh;
+}
+#headerSection span{
+    color: #FC9601;
+}
+.btn-outline-warning{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+/* FEATURES SECTION */
+.feature-top:hover{
+    color: #FC9601;
+    transition: color .5s ease;
+}
+/* HISTORY SECTION */
+
+#ourHistory h2{
+    border-left: 6px solid #FC9601;
+    padding-left: 30px;
+}
+
+/* TEAM SECTION */
+
+#team .card{
+    border: none;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#team .card:hover{
+    opacity: 1;
+}
+
+.card-block img{
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+}
+
+/* WHAT WE DO SECTION */
+
+#whatWeDoSection{
+    background: linear-gradient(
+        rgba(0,0,0,.7),
+        rgba(0,0,0,.7)
+        ),
+        url('../img/code.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; 
+}
+
+/* CASE STUDY */ 
+
+#caseStudy{
+    background-color: #f4f5f9;
+    line-height: 28px;
+}
+#caseStudy .caseArea{
+    background-color: white;
+    margin-top: 40px;
+    margin-right: -40px;
+    z-index: 100;
+    padding:40px;
+    position: relative;
+    min-height: 420px;
+}
+#caseStudy .fas,
+#caseStudy h3{
+    color: #FC9601;
+}
+.caseImg{
+    margin-left: -40px;
+}
