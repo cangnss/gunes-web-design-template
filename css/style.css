@@ -121,3 +121,49 @@ body{
 .caseImg{
     margin-left: -40px;
 }
+
+/* PORTFOLIO SECTION */
+
+#portfolio .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+#portfolio h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+#portfolio .fas{
+    margin-bottom: 20px;
+}
+#portfolio p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.imageContainer{
+    position: relative;
+    cursor: pointer;
+}
+.imageOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FFCC33;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.imageContainer:hover,
+.imageOverlay:hover{
+    opacity: .7;
+}
+.imageText{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
