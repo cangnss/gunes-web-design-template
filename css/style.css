@@ -36,7 +36,7 @@ body{
     color: #FC9601;
 }
 #headerSection{
-    background:url('../img/design.jpg') no-repeat center center fixed;
+    background:url('../images/design.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -92,7 +92,7 @@ body{
         rgba(0,0,0,.7),
         rgba(0,0,0,.7)
         ),
-        url('../img/code.jpg');
+        url('../images/code.jpg');
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
@@ -166,4 +166,31 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials{
+    background: linear-gradient(
+        rgba(0,0,0,.7),
+        rgba(0,0,0,.7)
+    ),
+    url('../images/carousel-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.quote{
+    color: #FC9601;
+    margin-bottom: 30px;
+}
+.blockquote-footer{
+    color: #FC9601;
+}
+.carousel-item img{
+    opacity: .1;
+    width: 20%;
+    height: 20%;
 }
